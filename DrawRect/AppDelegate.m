@@ -22,6 +22,7 @@
     RootViewController *rootVC = [[RootViewController alloc]init];
     self.window.rootViewController = rootVC;
     
+    // 这就对了
     [self.window makeKeyAndVisible];
 
     
