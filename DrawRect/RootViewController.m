@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "MainView.h"
 
 @interface RootViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    MainView *mainView = [[MainView alloc]initWithFrame:self.view.bounds];
+    
+    [self.view addSubview:mainView];
 }
 
 - (void)didReceiveMemoryWarning {
